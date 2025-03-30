@@ -1,17 +1,13 @@
 {
   "configurations": [
     {
-      "name": "macos-clang-arm64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
+      "name": "Win32",
+      "includePath": ["${workspaceFolder}/**", "${workspaceFolder}/include"],
+      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
       "compilerPath": "/usr/bin/clang",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "macos-clang-arm64",
-      "compilerArgs": [
-        ""
-      ]
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "clang-x86"
     }
   ],
   "version": 4
